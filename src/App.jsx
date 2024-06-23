@@ -21,12 +21,14 @@
 import React from 'react'
 import NavBar from './Project/NavBar'
 import Work from './Project/Work'
+import Stripes from './Project/Stripes'
 
 function App() {
   return (
     <div className="w-full h-screen bg-zinc-900 text-white font-[Satoshi variable]">
       <NavBar/>
       <Work/>
+      <Stripes/>
     </div>
   )
 }
