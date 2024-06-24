@@ -22,13 +22,14 @@ import React from 'react'
 import NavBar from './Project/NavBar'
 import Work from './Project/Work'
 import Stripes from './Project/Stripes'
-
+import Products from './Project/Products'
 function App() {
   return (
-    <div className="w-full h-screen bg-zinc-900 text-white font-[Satoshi variable]">
+    <div className="w-full  bg-zinc-900 text-white font-[Satoshi variable]">
       <NavBar/>
       <Work/>
       <Stripes/>
+      <Products/>
     </div>
   )
 }
