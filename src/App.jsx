@@ -23,6 +23,7 @@ import NavBar from './Project/NavBar'
 import Work from './Project/Work'
 import Stripes from './Project/Stripes'
 import Products from './Project/Products'
+import Marquees from './Project/Marquees'
 function App() {
   return (
     <div className="w-full  bg-zinc-900 text-white font-[Satoshi variable]">
@@ -30,6 +31,7 @@ function App() {
       <Work/>
       <Stripes/>
       <Products/>
+      <Marquees/>
     </div>
   )
 }

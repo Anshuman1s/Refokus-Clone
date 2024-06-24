@@ -10,7 +10,7 @@ function Products() {
         // {name:"",description:"Aruq Export Product its employees continue to receive orders from customer.",live:true,case:false},
     ]
   return (
-    <div>
+    <div className='mt-32'>
         {Products.map((val,index)=> <Product val={val}/>)}
       
     </div>
