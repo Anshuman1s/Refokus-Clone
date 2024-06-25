@@ -25,6 +25,7 @@ import Stripes from './Project/Stripes'
 import Products from './Project/Products'
 import Marquees from './Project/Marquees'
 import Cards from './Project/Cards'
+import Footer from './Project/Footer'
 function App() {
   return (
     <div className="w-full  bg-zinc-900 text-white font-[Satoshi variable]">
@@ -34,6 +35,7 @@ function App() {
       <Products/>
       <Marquees/>
       <Cards/>
+      <Footer/>
     </div>
   )
 }
